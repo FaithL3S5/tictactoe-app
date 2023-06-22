@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/tictactoe-app/static/js/main.d359e454.js",
+    "main.js": "/tictactoe-app/static/js/main.8042b2d7.js",
     "index.html": "/tictactoe-app/index.html",
-    "main.d359e454.js.map": "/tictactoe-app/static/js/main.d359e454.js.map"
+    "main.8042b2d7.js.map": "/tictactoe-app/static/js/main.8042b2d7.js.map"
   },
   "entrypoints": [
-    "static/js/main.d359e454.js"
+    "static/js/main.8042b2d7.js"
   ]
 }

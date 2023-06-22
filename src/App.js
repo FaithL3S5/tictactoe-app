@@ -14,6 +14,7 @@ import {
   extendTheme,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 const App = () => {
   const themeConfig = {
@@ -246,6 +247,14 @@ const App = () => {
                   Reset
                 </Button>
               </CardFooter>
+            </Card>
+            <Card>
+              <CardBody>
+                <Center>
+                  <Text>Press to Change Dark Mode &#8594;</Text>
+                  <ColorModeSwitcher />
+                </Center>
+              </CardBody>
             </Card>
           </VStack>
         </AbsoluteCenter>

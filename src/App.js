@@ -11,11 +11,18 @@ import {
   SimpleGrid,
   Text,
   VStack,
-  theme,
+  extendTheme,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 
 const App = () => {
+  const themeConfig = {
+    initialColorMode: 'dark',
+    useSystemColorMode: false,
+  };
+
+  const theme = extendTheme({ themeConfig });
+
   const [victor, setVictor] = useState('');
   const [currentPlayer, setCurrentPlayer] = useState('X');
 
